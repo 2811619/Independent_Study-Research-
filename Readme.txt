@@ -15,3 +15,8 @@ Tasks to do:
 Deliverables
   a. Progress report during regular research meetings (2 sessions per week)
   b. Complete a minimum 5-page paper summarizing the applied method and the results of the prediction outcomes of the      machine learning model
+
+Tasks Completed:
+  1. Extracted conflict minerals reporting data from the US government website for the past 10 years, on a month-by-month basis, and converting it to a CSV file
+  2. Extracted the column containing the URL information for the reporting and saved it as a text file. I noticed that some of the URLs in the extracted column contained unnecessary data such as picture formats (.jpg) and charts. To clean the URL's, I have removed all unnecessary data and kept only those that end with ".htm". The updated URL information has been saved in the same text file.
+  3. Written a code to scrape the websites that contain the URLs ending with ".htm". The scraped data includes information from the URL, as well as the text found within the header (<b>) and paragraph (<p>) tags. To store the scraped data, I have created a CSV file that contains the following columns: id, url, b_tag_text, and p_tag_text. The ID column represents a unique identifier for each url.
