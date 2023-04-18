@@ -1,4 +1,4 @@
-CIS-698 Independent Study
+CIS-698 Independent Study Research
 Guided by: Moonwon Chung
 ----------------------------------
 
