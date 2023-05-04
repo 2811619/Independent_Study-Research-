@@ -14,7 +14,13 @@ Tasks to do:
 
 Deliverables
   a. Progress report during regular research meetings (2 sessions per week)
-  b. Complete a minimum 5-page paper summarizing the applied method and the results of the prediction outcomes of the      machine learning model
+  b. Complete a minimum 5-page paper summarizing the applied method and the results of the prediction outcomes of the machine learning model
+
+Code breakdown:
+  1. main_api_extraction.py: Includes query_api, make_dataframe, and cleaning_url to extract URLs ending with htm.
+  2. scrape_final_code.py: Contains code for scraping webpages for the above-extracted htm URLs.
+  3. sentiment&coherent_final.ipynb: Scrapes CSV file, filters by clusters, and applies sentiment analysis for results (positive, negative, neutral, overall scores).
+  4. LDA and BERT.ipynb: Processes remaining clusters, applies preprocessing, and applies the LDA and BERT models.
 
 Tasks Completed:
   1. Extracted conflict minerals reporting data from the US government website for the past 10 years, on a month-by-month basis, and converting it to a CSV file
